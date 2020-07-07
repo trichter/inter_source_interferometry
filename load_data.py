@@ -54,7 +54,7 @@ DATA_FILES1 = 'data/waveforms/{id}_{sta}_?H?.mseed' # WEBNET
 #DATA_FILES2 = 'data_2018_other/{id}_*/*.mseed'  # BGR, LMU
 
 QCFILE = 'data2/2018_events_qc_mag1.9.txt'
-TWFILE = 'data2/2018_events_tw_mag1.9.txt'
+TWFILE = 'data2/2018_events_tw_mag1.9.json'
 TXTFILE = 'tmp/cat_2018_mag>1.8.txt'
 LATLON0 = (50.25, 12.45)
 
