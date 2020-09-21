@@ -4,7 +4,8 @@
 
 This repository contains the source code for the reproduction of results of the following publication:
 
-Tom Eulenfeld (2020), Towards source region tomography with inter-source interferometry: Shear wave velocity from 2018 West Bohemia swarm earthquakes, *Submitted to Journal of Geophysical Research: Solid Earth*. [[preprint](https://arxiv.org/pdf/2003.11938)]
+Tom Eulenfeld (2020), Toward source region tomography with inter-source interferometry: Shear wave velocity from 2018 West Bohemia swarm earthquakes, *Journal of Geophysical
+Research: Solid Earth, 125*, e2020JB019931, doi:[10.1029/2020JB019931](https://doi.org/10.1029/2020JB019931). [[pdf](https://arxiv.org/pdf/2003.11938)]
 
 #### Preparation
 

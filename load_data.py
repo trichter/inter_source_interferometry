@@ -226,7 +226,7 @@ def tw_from_qc_file(events=None):
     if os.path.exists(TWFILE):
         with open(TWFILE) as f:
             return json.load(f)
-    print('Need to rebuild qc file ...')
+    print('Need to rebuild time window file ...')
     assert events
     with open(QCFILE) as f:
         text = f.read()
