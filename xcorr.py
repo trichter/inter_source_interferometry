@@ -14,7 +14,7 @@ from tqdm import tqdm
 
 from load_data import iter_data
 from util.events import event2list
-from util.signal import trim2
+from util.signal import envelope, trim2
 from util.xcorr2 import correlate_traces
 
 
@@ -53,7 +53,6 @@ def correlate_stream(stream, tw='Scoda', timenorm=None, max_dist=None, tw_len=No
         if timenorm == '1bit':
             tr.data = np.sign(tr.data)
         elif timenorm == 'envelope':
-            from stools.signal import envelope
             tr.data = tr.data / envelope(tr.data)
     streams = collections.defaultdict(obspy.Stream)
     for tr in stream:
